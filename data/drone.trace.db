@@ -1,0 +1,12 @@
+2022-05-06 19:18:03 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DRONE" not found; SQL statement:
+Select * from drone [42102-200]
+2022-05-06 19:53:17 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES.[*]DRONE"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES.DRONE [42000-200]
+2022-05-06 19:53:29 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES.[*]*"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES.* [42000-200]
+2022-05-06 19:55:59 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.VIEWS INFORMATION_SCHEMA.[*]TABLE_PRIVILEGES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.VIEWS INFORMATION_SCHEMA.TABLE_PRIVILEGES [42000-200]
